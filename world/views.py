@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+import geopandas
+import json
 from .models import Layer
 from .models import Shape
+from .measurements import zip_geometry
 
 
 def index(request):
@@ -18,3 +21,20 @@ def shape(request, shape_pk):
                'shape_pk': shape_pk,
                }
     return render(request, 'world/shape.html', context)
+
+
+def polylinem(request):
+
+    gdf = geopandas.read_file('/home/marouane/stage/testdata/polylineM/asv_lines_Calibrated.shp')
+    i = 0
+    measurements = {'type': "FeatureCollection"}
+    features = []
+    for f in gdf.iterfeatures():
+        if i == 132:
+            features.append({'type': 'Feature', 'geometry': zip_geometry(f['geometry'], f['properties']['measurements'])})
+            measurements['features'] = features
+        i += 1
+    context = {
+        'features': json.dumps(measurements)
+    }
+    return render(request, 'world/measurements.html', context)

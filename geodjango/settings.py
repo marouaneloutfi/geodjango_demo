@@ -25,7 +25,7 @@ SECRET_KEY = 'utd%vxud060bfdo7g4u(nwo_m(7x*-zx3x2lx@jcvx4y2-1(%&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['geodjango', 'geodjango.dev']
+ALLOWED_HOSTS = ['geodjango', 'geodjango.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'geodjango.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
+ATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'gisdb',
+        'NAME': 'demo',
         'USER': 'postgres',
-        'PASSWORD': 'GIS007',
+        'PASSWORD': 'Cvagis',
         'PORT': '5432',
         'HOST': 'localhost',
 

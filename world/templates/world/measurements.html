@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+	   html, body, #map {
+	      height:100%;
+	      width:100%;
+	      padding:0px;
+	      margin:0px;
+	   }
+</style>
+    {% load static %}
+    <title>PolylineM file visualization</title>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <link rel="stylesheet" href={% static 'world/leaflet.elevation-0.0.4.css' %} />
+
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script  src="{% static 'world/leaflet.elevation-0.0.4.src.js' %}" ></script>
+
+</head>
+<body>
+<h1> PolylineM  shapefile visualization </h1>
+	<div id="map"></div>
+
+	<script type="text/javascript">
+		var map = new L.Map('map');
+
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+		var bounds = new L.LatLngBounds(new L.LatLng(29.95, -84.65), new L.LatLng(29.55, -85.41));
+
+		var geojson = {{ features|safe}};
+
+		var el = L.control.elevation();
+		el.addTo(map);
+		var gjl = L.geoJson(geojson,{
+		    onEachFeature: el.addData.bind(el)
+		}).addTo(map);
+
+		map.fitBounds(bounds);
+
+
+	</script>
+
+
+
+</body>
+</html>
