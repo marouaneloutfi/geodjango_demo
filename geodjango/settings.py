@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-
+import mongoengine
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +25,7 @@ SECRET_KEY = 'utd%vxud060bfdo7g4u(nwo_m(7x*-zx3x2lx@jcvx4y2-1(%&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['geodjango', 'geodjango.dev']
+ALLOWED_HOSTS = ['geodjango', 'geodjango.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -80,14 +80,19 @@ WSGI_APPLICATION = 'geodjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'gisdb',
+        'NAME': 'demo',
         'USER': 'postgres',
-        'PASSWORD': 'GIS007',
+        'PASSWORD': 'Cvagis',
         'PORT': '5432',
         'HOST': 'localhost',
 
     }
 }
+
+#### Mongodb connection and work arrounds
+mongoengine.connect('geoms')
+
+
 
 
 # Password validation

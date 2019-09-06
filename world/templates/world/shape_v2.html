@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>shape file visualization</title>
+    {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'world/style.css' %}">
+</head>
+<body>
+<h1>shape file "{{ name  }}" visualization </h1>
+{% load leaflet_tags %}
+{% load geojson_tags %}
+
+{% block extra_assets %}
+  {% leaflet_js %}
+  {% leaflet_css %}
+{% endblock %}
+
+{% block content %}
+
+    <script type="text/javascript">
+        var collection = {{ features|safe }};
+
+
+     function map_init(map, options) {
+     shape_v1 = L.geoJson(collection).addTo(map);
+     map.fitBounds(shape.getBounds());
+     }
+
+    </script>
+
+    {% leaflet_map "spots" callback="window.map_init" %}
+
+{% endblock %}
+
+<div class="counter"></div>
+<a class="paginate left" href="{% url 'world:shape_v2' previous %}"><i></i><i></i></a>
+<a class="paginate right" href="{% url 'world:shape_v2' next %}" ><i></i><i></i></a>
+<script>
+
+var previous = document.querySelector( '.paginate.left' );
+var next = document.querySelector( '.paginate.right' );
+document.querySelector( '.counter' ).innerHTML = "{{ shape_pk }}"+"/"+"{{ shape_count }}";
+previous.setAttribute( 'data-state', {{ shape_pk }} == 1 ? 'disabled' : '' );
+next.setAttribute( 'data-state', {{ shape_pk }} == {{ shape_count }} ? 'disabled' : '' );
+
+</script>
+</body>
+</html>

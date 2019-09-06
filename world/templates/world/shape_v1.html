@@ -32,8 +32,8 @@
 {% endblock %}
 
 <div class="counter"></div>
-<a class="paginate left" href="{% url 'world:shape' previous %}"><i></i><i></i></a>
-<a class="paginate right" href="{% url 'world:shape' next %}" ><i></i><i></i></a>
+<a class="paginate left" href="{% url 'world:shape_v1' previous %}"><i></i><i></i></a>
+<a class="paginate right" href="{% url 'world:shape_v1' next %}" ><i></i><i></i></a>
 <script>
 
 var previous = document.querySelector( '.paginate.left' );
