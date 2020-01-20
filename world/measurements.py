@@ -42,7 +42,7 @@ def as_ndarray(coords,m_array):
     return np.insert(np.asarray(coords), 2, m_array, axis=1)
 
 
-def zip_geometry(geom,m_values):
+def zip_geometry(geom, m_values):
     coords = []
     for coord, m in zip(geom['coordinates'], m_values):
         coords.append(coord + (m,))

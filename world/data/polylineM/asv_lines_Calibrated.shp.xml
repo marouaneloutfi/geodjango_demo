@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20110322</CreaDate>
+		<CreaTime>11322500</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20120412</SyncDate>
+		<SyncTime>16365300</SyncTime>
+		<ModDate>20120412</ModDate>
+		<ModTime>16370100</ModTime>
+		<MetaID>{869C3A5F-738E-42A5-8183-B8660ED37457}</MetaID>
+	</Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>Apalachicola Bay and St. George Sound contain the largest oyster fishery in Florida, and the growth and distribution of the numerous oyster reefs here are the combined product of modern estuarine conditions and the late Holocene evolution of the bay. A suite of geophysical data and cores were collected during a cooperative study by the U.S. Geological Survey, the National Oceanic and Atmospheric Administration Coastal Services Center, and the Apalachicola National Estuarine Research Reserve to refine the geology of the bay floor as well as the bay's Holocene stratigraphy. Sidescan-sonar imagery, bathymetry, high-resolution seismic profiles, and cores show that oyster reefs occupy the crests of sandy shoals that range from 1 to 7 kilometers in length, while most of the remainder of the bay floor is covered by mud. The sandy shoals are the surficial expression of broader sand deposits associated with deltas that advanced southward into the bay between 6,400 and 4,400 years before present. The seismic and core data indicate that the extent of oyster reefs was greatest between 2,400 and 1,200 years before present and has decreased since then due to the continued input of mud to the bay by the Apalachicola River. The association of oyster reefs with the middle to late Holocene sandy delta deposits indicates that the present distribution of oyster beds is controlled in part by the geologic evolution of the estuary. For more information on the surveys involved in this project, see http://woodshole.er.usgs.gov/operations/ia/public_ds_info.php?fa=2005-001-FA and http://woodshole.er.usgs.gov/operations/ia/public_ds_info.php?fa=2006-001-FA.</abstract>
+			<supplinf>This shapefile contains the IRIS chirp seismic tracklines as polyline-m files with the measurement value of shots. These tracklines act as a data archive, as well as aiding the spatial relation of the seismic-reflection profiles with other GIS data available in the same area.</supplinf>
+			<purpose>This shapefile provides the ASV IRIS seismic tracklines as a calibrated, linear-referenced shapefile. The calibration is based on shot point navigation. Not only do these lines provide the location of the IRIS tracklines, they can also be used to correlate other GIS data with the actual seismic-reflection profiles based on shot point number.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>VeeAnn A. Cross</origin>
+				<pubdate>2012</pubdate>
+				<title>ASV_LINES_CALIBRATED.SHP: Polyline-M Shapefile of Navigation Tracklines for Autonomous Surface Vessel IRIS Chirp Seismic Data in Apalachicola Bay collected on U.S. Geological Survey Cruise 06001 (Geographic, WGS84)</title>
+				<ftname Sync="TRUE">asv_lines_Calibrated</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>http://pubs.usgs.gov/of/2012/1003/data/shapefiles/asv_lines.zip</onlink>
+				<origin>David S. Foster</origin>
+				<lworkcit><citeinfo><origin>V.A. Cross</origin><origin>D.C. Twichell</origin><origin>D.S. Foster</origin><origin>T.F. O'Brien</origin><pubdate>2012</pubdate><title>Apalachicola Bay Interpreted Seismic Horizons and Updated IRIS Chirp Seismic-Reflection Data</title><edition>1</edition><serinfo><sername>Open-File Report</sername><issue>2012-1003</issue></serinfo><pubinfo><pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace><publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish></pubinfo><onlink>http://pubs.usgs.gov/of/2012/1003/</onlink></citeinfo></lworkcit><serinfo><sername>Open-File Report</sername><issue>2012-1003</issue></serinfo><pubinfo><pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace><publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish></pubinfo><onlink>http://pubs.usgs.gov/of/2012/1003/html/catalog.html</onlink></citeinfo>
+		</citation>
+		<timeperd>
+			<current>ground condition</current>
+			<timeinfo>
+				<rngdates>
+					<begdate>20060603</begdate>
+					<enddate>20060627</enddate>
+				</rngdates>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-85.062710</westbc>
+				<eastbc Sync="TRUE">-84.809553</eastbc>
+				<northbc Sync="TRUE">29.746692</northbc>
+				<southbc Sync="TRUE">29.618457</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">-85.062710</leftbc>
+				<rightbc Sync="TRUE">-84.809553</rightbc>
+				<bottombc Sync="TRUE">29.618457</bottombc>
+				<topbc Sync="TRUE">29.746692</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>U.S. Geological Survey</themekey>
+				<themekey>USGS</themekey>
+				<themekey>Coastal and Marine Geology Program</themekey>
+				<themekey>CMGP</themekey>
+				<themekey>Woods Hole Coastal and Marine Science Center</themekey>
+				<themekey>WHCMSC</themekey>
+				<themekey>Field Activity Serial Number 06001</themekey>
+				<themekey>Field Activity 2006-001-FA</themekey>
+				<themekey>Info Bank ID R-1-06-GM</themekey>
+				<themekey>navigation</themekey>
+				<themekey>seismic-reflection</themekey>
+				<themekey>trackline navigation</themekey>
+				<themekey>polyline-m shapefile</themekey>
+				<themekt>General</themekt>
+				<themekey>ASV IRIS</themekey>
+				<themekey>Autonomous Surface Vessel</themekey>
+				<themekey>Independently (or) Remotely Influenced Surveyor</themekey>
+				<themekey>chirp seismics</themekey>
+				<themekey>EdgeTech SB-424</themekey>
+			</theme>
+			<theme>
+				<themekey>oceans</themekey>
+				<themekey>oceans and estuaries</themekey>
+				<themekey>oceans and coastal</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>location</themekey>
+			</theme>
+			<place>
+				<placekey>Apalachicola Bay</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Apalachicola National Estuarine Research Reserve</placekey>
+				<placekey>Gulf of Mexico</placekey>
+				<placekey>United States</placekey>
+				<placekey>St. Vincent Island</placekey>
+				<placekey>Little St. George Island</placekey>
+				<placekt>General</placekt>
+				<placekey>St. George Island</placekey>
+				<placekey>North America</placekey>
+			</place>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey (USGS) as the originators of this dataset.</useconst>
+		<natvform Sync="TRUE">Shapefile</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>David C. Twichell</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Oceanographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>384 Woods Hole Rd.</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+				</cntaddr>
+				<cntvoice>(508) 548-8700 x2266</cntvoice>
+				<cntfax>(508) 457-2310</cntfax>
+				<cntemail>dtwichell@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<crossref>
+			<citeinfo>
+				<origin>D.C. Twichell</origin>
+				<origin>B.D. Andrews</origin>
+				<origin>H.L. Edmiston</origin>
+				<origin>W.R. Stevenson</origin>
+				<pubdate>2007</pubdate>
+				<title>Geophysical mapping of oyster habitats in a shallow estuary; Apalachicola Bay, Florida </title>
+				<edition>1</edition>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2006-1381</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2006/1381/</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>D.C. Twichell</origin>
+				<origin>E.A. Pendleton</origin>
+				<origin>R.Z. Poore</origin>
+				<origin>L.E. Osterman</origin>
+				<origin>K.W. Kelso</origin>
+				<pubdate>2009</pubdate>
+				<title>Vibracore, radiocarbon, microfossil, and grain-size data from Apalachicola Bay, Florida</title>
+				<edition>1</edition>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2009-1031</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2009/1031/</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>E. Bergeron</origin>
+				<origin>C.R. Worley</origin>
+				<origin>T.F. O'Brien</origin>
+				<pubdate>2007</pubdate>
+				<title>Progress in the development of shallow-water mapping systems: using an autonomous surface vehicle for shallow-water geophysical studies</title>
+				<serinfo>
+					<sername>Sea Technology</sername>
+					<issue>v. 48, no. 6, p. 10-15</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Arlington, VA</pubplace>
+					<publish>Compass Publications, Inc.</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">asv_lines_Calibrated</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">-85.06271</westBL>
+					<eastBL Sync="TRUE">-84.809553</eastBL>
+					<northBL Sync="TRUE">29.746692</northBL>
+					<southBL Sync="TRUE">29.618457</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-85.06271</westBL>
+			<eastBL Sync="TRUE">-84.809553</eastBL>
+			<northBL Sync="TRUE">29.746692</northBL>
+			<southBL Sync="TRUE">29.618457</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>VeeAnn A. Cross</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Marine Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>384 Woods Hole Rd.</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+				</cntaddr>
+				<cntvoice>(508) 548-8700  x2251</cntvoice>
+				<cntfax>(508) 457-2310</cntfax>
+				<cntemail>vatnipp@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120412</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>VeeAnn A. Cross</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Marine Geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Woods Hole Coastal and Marine Science Center</address>
+					<address>384 Woods Hole Rd.</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543-1598</postal>
+				</cntaddr>
+				<cntvoice>(508) 548-8700  x2251</cntvoice>
+				<cntfax>(508) 457-2310</cntfax>
+				<cntemail>vatnipp@usgs.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>1.04 MB</transize>
+					<dssize Sync="TRUE">2.828</dssize>
+					<formname>WinZip</formname>
+					<formvern>9.0</formvern>
+					<formcont>This WinZip file contains the polyline-m shapefile as well as the associated metadata files. </formcont>
+				</digtinfo>
+				<digtopt><onlinopt><computer><networka><networkr>http://pubs.usgs.gov/of/2012/1003/data/shapefiles/asv_lines.zip</networkr><networkr>http://pubs.usgs.gov/of/2012/1003/html/catalog.html</networkr></networka></computer></onlinopt></digtopt></digform>
+			<fees>None.</fees>
+		</stdorder>
+		<distliab>Neither the U.S. government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. </distliab>
+		<techpreq>This WinZip file contains data available in ESRI polyline-m shapefile format. The user must have software capable of uncompressing the WinZip file and reading/displaying the shapefile.</techpreq>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\IGSAGIEGWSVCRX0\D$\iomega\Projects\apalach_asvarchive\finalpub_epnedits\data\shapefiles\asv_lines_Calibrated.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">2.828</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<mdDateSt Sync="TRUE">20120412</mdDateSt>
+	<eainfo>
+		<overview>
+			<eaover>The platform used to collect the original seismic data was the Woods Hole Coastal and Marine Science Center's Autonomous Surface Vessel (ASV) IRIS (Independently (or) Remotely Influenced Surveyor).  Details of the platform can be found on the following web page: http://woodshole.er.usgs.gov/operations/sfmapping/iris.htm.  IRIS is configured with an EdgeTech FFSB 424 chirp sub-bottom profiler that operates within a 4-24 kHz frequency range.  The vehicle is navigated using Real-Time Kinematic (RTK) GPS. The antenna is mounted directly on the platform to minimize navigational error.</eaover>
+		</overview>
+		<detailed Name="asv_lines_Calibrated">
+			<enttyp>
+				<enttypl Sync="TRUE">asv_lines_Calibrated</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">211</enttypc>
+				<enttypd>ESRI polyline shapefile</enttypd>
+				<enttypds>ESRI</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">lmarkname</attrlabl>
+				<attalias Sync="TRUE">lmarkname</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdef>An abbreviated text field which provides a unique line name associated with each point of data collection. The shorter name is easier to work with in the seismic interpretation software. </attrdef>
+				<attrdefs>Data processor.</attrdefs>
+				<attrdomv>
+					<udom>Character set.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">year</attrlabl>
+				<attalias Sync="TRUE">year</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<attrdef>Calendar year the data were collected.</attrdef>
+				<attrdefs>Data processor.</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>2006</edomv>
+						<edomvd>Year in which the data were collected.</edomvd>
+						<edomvds>Data processor.</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">jday</attrlabl>
+				<attalias Sync="TRUE">jday</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<attrdef>This number represents the Julian day of data collection based on UTC time. Julian day is the integer number representing the interval of time in days since January 1 of the year. </attrdef>
+				<attrdefs>Data processor.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>154</rdommin>
+						<rdommax>178</rdommax>
+						<attrunit>day</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">discover</attrlabl>
+				<attalias Sync="TRUE">discover</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>no</edomv>
+						<edomvd>The Discover software was not used to record the data</edomvd>
+						<edomvds>Data processor.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Text field indicating of the recoding software of the seismic line was the Discover software. </attrdef>
+				<attrdefs>Data processor.</attrdefs>
+				<attrdomv><edom><edomv>yes</edomv><edomvd>The Discover software was used to record the data.</edomvd><edomvds>Data processor.</edomvds></edom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">divisors</attrlabl>
+				<attalias Sync="TRUE">divisors</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<attrdef>The divisor needed to convert the navigation recorded in the SEG-Y headers to decimal degrees. The first number represents the divisor of the longitude, while the second number indicates the divisor needed for the latitude.</attrdef>
+				<attrdefs>Data processor.</attrdefs>
+				<attrdomv>
+					<udom>Character set.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">orig_fname</attrlabl>
+				<attalias Sync="TRUE">orig_fname</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<attrdef>The prefix of the original seismic filename used to extract the navigation and generate the JPEG images.</attrdef><attrdefs>Data processor.</attrdefs><attrdomv><udom>Character set.</udom></attrdomv></attr>
+		</detailed>
+	</eainfo>
+	<dataqual>
+		<complete>No data were acquired on the following dates: 6/8/2006, 6/10/2006 6/12/2006, 6/13/2006, 6/15/2006, 6/16/2006, 6/17/2006, 6/18/2006, 6/19/2006, 6/20/2006. These dates correspond to Julian days 159, 161, 163, 164, 166, 167, 168, 169, 170, and 171 respectively.
+In addition, lines for which no valid seismic data were available, or extremely short lines, were deleted. Some lines acquired seismic data, but little or no navigation. These lines are also excluded. One line was re-run, so the original problematic line was excluded. The list of collected seismic lines excluded from this and subsequent datasets is as follows: Julian day 155 - apalachicola000 (rerun), apalachicola020 (too short), apalachicola027 (insufficient navigation). Julian day 160 - day160001 (insufficient navigation). Julian day 165 - day165001 (too short). Julian day 172 - JD172010 (too short), JD172014 (too short), JD172025 (too short). Julian day 173 - JD173009 (too short). Julian day 174 - JD174010 (too short).</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>IRIS was navigated with a Real-Time Kinematic (RTK) GPS, with the GPS antenna mounted directly over the seismic transducer. This system can provide positions to within 0.1 meters. However, due to some errors with the acquisition software, this accuracy is reduced. The accuracy is approximately 2 m given the constraints of the acquisition system.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>The seismic data were acquired with an EdgeTech SB-424 sub-bottom profiler and recorded in JSF format using JSTAR, EdgeTech's acquisition software. The research effort within Apalachicola Bay represented the first use of IRIS in full survey mode. As such, the system needed to be 'rung-out' during the first several days of surveying. A file naming convention developed over the first few days of surveying and acquisition settings (hardware and software) were modified several times until standardized settings could be established for Apalachicola Bay.  Initial trouble-shooting dealt with several issues including a variation in the field in which navigation was stored within the JSF header and in the resolution of the navigation (seconds of arc vs. minutes of arc). Correcting these issues required re-running particular files though EdgeTech's DISCOVER software and saving new JSF files. Files that were saved through DISCOVER are signified by a 'yes' in the 'discover' field within the shapefile.  A 'no' within the 'discover' field indicates that the JSF file was correct in its original format; re-running through DISCOVER was not required. The JSF files were then converted to SEG-Y format using jsf2segy, a C-program written by Tom O'Brien at the Woods Hole Coastal and Marine Science Center, U.S. Geological Survey.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Tom O'Brien</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Marine Geophysical Systems Expert</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>384 Woods Hole Rd.</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+						</cntaddr>
+						<cntvoice>(508) 548-8700 x2246</cntvoice>
+						<cntfax>5084572310</cntfax>
+					</cntinfo>
+				</proccont>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>These original SEG-Y files are in IEEE format and were converted to IBM floating point using SIOSEIS. In addition to this conversion, the shot numbers have been renumbered in order to start at one.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>David S. Foster</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Geologist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>384 Woods Hole Rd.</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+						</cntaddr>
+						<cntvoice>(508) 548-8700  x2271</cntvoice>
+						<cntfax>(508) 457-2310</cntfax>
+						<cntemail>dfoster@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>A csh script utilized Seismic Unix (v. 4.0) to extract all of the unique navigation points from the SEG-Y header within the seismic data. These values were written to a comma-delimited text file.  In addition to extracting the navigation, the csh script was used to generate JPEG images of each seismic profile. Due to modifications to acquisition parameters during the initial days of surveying, the format in which navigation was stored in the SEG-Y headers varies: navigation is stored in either decimal arc seconds (0.01) or decimal arc minutes (0.0001).  In order to properly extract and convert navigation to latitude/longitude divisors of 360000 and 600000 were used for decimal arc seconds and decimal arc minutes, respectively. 
+
+Prior to JD172, the acquisition system did not consistently record longitude as a negative value (western hemisphere).  Thus, either 600000 or -600000 was used to convert arc minutes to longitude based on whether the acquisition software recorded negative or positive longitude values.  The divisors necessary for proper navigation extraction are contained in the attribute field "divisors" and are in the format "longitude divisor/ latitude divisor". This process step and all subsequent process steps were performed by the same person - VeeAnn A. Cross.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>VeeAnn A. Cross</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Marine Geologist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>384 Woods Hole Rd.</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543-1598</postal>
+						</cntaddr>
+						<cntvoice>(508) 548-8700 x2251</cntvoice>
+						<cntfax>(508) 457-2310</cntfax>
+						<cntemail>vatnipp@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The individual comma-delimited text files were then concatenated to generate a single navigation text file. This file was edited to remove invalid positions (usually latitude and longitude values of 0).  In addition, calendar year and Julian day values were edited as necessary in order to reflect appropriate values. Finally, a header was added to the navigation text file in order to describe each column of data.</procdesc>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The navigation text file was added to ArcMap 9.1 as an XY point event layer and converted to a point shapefile.</procdesc>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The attribute "lmarkname" was added to the shapefile. This attribute will be used as the unique line name when loading the data into Landmark SeisWorks software. Seismic lines containing circles or turns were broken into multiple segments and assigned a unique line name by appending an "a" or "b" etc. to the line name.  Landmark can load a portion of a SEGY file by loading the line segment that corresponds to the shot point navigation. (i.e. Splitting a SEGY file into segments is unnecessary, only the navigation needs to be split). During the initial days of surveying, the seismic acquisition system simultaneously recorded multiple files per survey line, creating some data redundancies. These overlapping portions of the survey line do not have a value entered in the "lmarkname" attribute</procdesc>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>All records that do not have a blank in the "lmarkname" attribute are selected and saved to a new point shapefile that will be used to load SEG-Y data into Landmark software.</procdesc>
+				<srcused>allasvpntnav_mod.shp</srcused>
+				<srcprod>allasv4landmark.shp</srcprod>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>This point layer was then converted to a polyline shapefile using the Points to Lines v2 script in VAC Extras v. 1.98 (a collection of tools used in the USGS Woods Hole Coastal and Marine Science Center). The lines are based on a unique identifier in the point attribute table (lmarkname). The first occurrence of the following attributes is carried over: filename, shot, year, jday, seistime.</procdesc>
+				<srcused>allasv4landmark.shp</srcused>
+				<srcprod>allasv4landmark_lns.shp</srcprod>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The attributes "discover" and "divisors" were added to the attribute table. These attributes help to discern how the data was handled immediately after acquisition.  In particular, the "divisors" attribute will be beneficial to anyone working with the SEG-Y data and will be needed to extract the navigation from the headers.</procdesc>
+				<srcused>allasv4landmark_lns.shp</srcused>
+				<srcprod>allasv4landmark_lns.shp</srcprod>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The polyline shapefile was converted to a route using ArcMap 9.2 - ArcToolbox - Linear referencing - Create Routes. Input: allasv4landmark_lns; route identifier: lmarkname; output: asvlmark_route.shp; rest of the parameters at the defaults ( measure source - length; coordinate priority - upper_left; measure factor - 1; measure offset - 0; ignore spatial gaps - checked; build index - checked).</procdesc>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The original point navigation will be used to calibrate the polylines based on shot number. However, before this can be done, any points with duplicate location need to be removed. Within ArcMap 9.2, using XTools Pro v. 5.2 - Table operations - Find Duplicates set the output to allasv_nodupes.shp. Other parameters: add feature to current map, create spatial index, compare by shape - check box to remove duplicates; index field name - index. Deselect the option to add ID field of the source feature. After this was done, a comparison showed the original shapefile had 123157 points and the new one had 122950 points.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Sort the new shapefile using VACExtras v 2.0, VAC Extras - Feat Conv - Table Sort. Primary sort is lmarkname in ascending order, secondary sort is shot in ascending order. Output: all asv_nodupes_sort.shp.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Now I need to look for loop back sections in the seismic tracklines. The easiest way to do this was to find problems with a calibrated route, so within ArcMap 9.2 calibrate the route using ArcToolbox - Linear Referencing - Calibrate Routes. Input: asvlmark_route; route identifier: lmarkname; input points: allasv_nodupes; point identifier: lmarkname; measure field: shot; output route feature class:asvlmark_route_Calibratedtmp.shp. Rest of the fields were left at their default values.  Once the route was calibrated, create the end hatches for the routes using the shapefile Properties - Hatches - Add Hatch Definition. Add end hatch definition set the hatch to a marker, tolerance 0 and lateral offset 0.  With the hatches displayed, the point shapefile can be edited to sort out the bad portions.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Taking the cleaned point shapefile, generate a new polyline from these points. Using VACExtras 2.0 - VAC Extras - Feat Conv - Points to Line v2. The unique line identifier: lmarkname. Fields to transfer first occurrence: filename, shot, year, jday, seistime, discover, divisors. Output to asv_lines.shp.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Convert the line to a route using ArcMap 9.2 - ArcToolbox - Linear referencing - Create Routes. Input: asv_lines; route identifier: lmarkname; output: asv_lines_Routes.shp. Rest of the parameters left to default.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Calibrate the route using ArcMap 9.2 - Linear Referencing - Calibrate Routes. Input: asv_lines_Routes; route identifier: lmarkname; input points: allasv_nodupes_sort; point identifier: lmarkname; measure field: shot; output route feature class: asv_lines_Calibrated.shp. Rest of the parameters left at the defaults.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Add the following attributes to the calibrated shapefile: year, jday, discover, divisors, orig_fname.  In order to populate these fields, join asv_lines_Calibrated to asv_lines with the join field set to lmarkname in both shapefiles. Once the files are joined, field calculator is used to copy the attribute values form the asv_lines attributes to the asv_lines_Calibrated attributes.</procdesc>
+				<procdate>2008</procdate>
+			</procstep>
+			<srcinfo>
+				<srccontr>The data were collected using the USGS WHCMSC Autonomous Surface Vessel (ASV) IRIS. This system is designed to operate in shallow water (1-5 meters). IRIS is a catamaran platform 3 meters in length, 1.2 meters in width, and approximately 118 kilograms. The vehicle is operated remotely through a wireless modem network enabling real-time monitoring of data acquisition. The system is navigated using a ZXW RTK augmented GPS system enclosed on a platform in the middle of the catamaran. An enclosed onboard micro-processor-based motor controller provides signals for speed and steering to hull-mounted brushless direct-current thrusters. A center-mounted keel encloses the chirp dual-frequency (100/400 kHz model 4200 EdgeTech) sidescan-sonar transducers and EdgeTech 424 chirp seismic-reflection hydrophones. Mounted in the port hull are the EdgeTech 424 chirp seismic-reflection transducer and a single-beam 235 kHz echosounder. A Sony IP based wireless video camera is installed on the mast of IRIS for the purpose of obstacle avoidance. An onboard Fluxgate magnetometer provides heading, heave, pitch, and roll. IRIS is powered by 2-4 24-volt NiMH batteries located in each hull and has an approximate run-time of five hours at 4 knots.</srccontr>
+			</srcinfo>
+		</lineage>
+		<logic>All the data were handled in the same manner. Inconsistencies exist in the filenaming convention for individual seismic data collection lines. Because the filenames reflect the original data file names acquired in the field, they were left alone.</logic>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="asv_lines_Calibrated">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polyline</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">211</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">TRUE</linrefer>
+			</esriterm>
+			<sdtsterm Name="asv_lines_Calibrated">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">211</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+				<latres>0.000001</latres>
+				<longres>0.000001</longres>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">GCS_WGS_1984</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="asv_lines_Calibrated"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">211</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+</metadata>
